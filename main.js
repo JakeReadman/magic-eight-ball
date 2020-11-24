@@ -38,8 +38,8 @@ const removeAni = () => {
   answerDisp.classList.remove('text-ani');
 };
 
-const validateQ = (question) => {
-  if (question[question.length - 1] !== '?') {
+const handleQuestion = (question) => {
+  if (question[question.length - 1] !== '?' || question.length <= 1) {
     alert('Ask a real question please');
   } else {
     questionDisp.textContent = `You asked: ${question}`;
@@ -54,7 +54,7 @@ const validateQ = (question) => {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const question = document.getElementById('question').value;
-  validateQ(question);
+  handleQuestion(question);
 });
 
 getName();
