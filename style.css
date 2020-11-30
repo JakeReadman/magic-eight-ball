@@ -73,6 +73,7 @@ form input {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 10;
+  height: fit-content;
 }
 
 .eight-ball {
@@ -179,4 +180,8 @@ form input {
   -webkit-transform: translate(-50%, -50%) scaleY(0.1);
   transform: translate(-50%, -50%) scaleY(0.1);
   z-index: 1;
+}
+
+.eight-ball-container {
+  height: 100%;
 }
