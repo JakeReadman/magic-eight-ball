@@ -2,11 +2,15 @@ let userName;
 const nameDisplay = document.getElementById('name');
 const answers = [
   'You wish!',
-  'Who really cares?',
-  'You bet your ass!',
-  'Have you tried no?',
-  'You bore me',
-  'Buy me a drink first',
+  `Who 
+  really cares
+  ?`,
+  `You bet your ass 
+  !`,
+  'How about no?',
+  `
+  You bore me`,
+  'Buy me a drink 1st',
   'No with a but',
   'Yes with an if',
 ];
