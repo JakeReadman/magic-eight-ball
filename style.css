@@ -28,10 +28,6 @@ h1 {
   justify-content: center;
 }
 
-.text-container {
-  margin-bottom: ;
-}
-
 .container h3,
 .container form,
 .container h2 {
@@ -132,7 +128,7 @@ form input {
   position: absolute;
   width: 0px;
   height: 0px;
-  left: 40%;
+  left: 45%;
   top: 50%;
   border-left: 55px solid transparent;
   border-right: 55px solid transparent;
@@ -150,8 +146,8 @@ form input {
   text-transform: uppercase;
   width: 48px;
   height: 50px;
-  left: 45%;
-  top: 40%;
+  left: 47%;
+  top: 46%;
   opacity: 0;
   transition: ease-in all 0.2s;
 }
@@ -176,8 +172,6 @@ form input {
   border-radius: 100%;
   height: 200px;
   width: 200px;
-  /* filter: blur(40px);
-  -webkit-filter: blur(50px); */
   position: absolute;
   margin-top: 200px;
   top: 50%;
